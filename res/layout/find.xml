@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+	<include layout="@layout/title" />
+	<Button 
+	    android:id="@+id/btnGps"
+	    android:text="当前位置:湖北武汉"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:background="@drawable/search_bar_bg"/>
+	<ListView
+	    style="@style/ListView"
+	    android:id="@+id/mlist"
+	    android:layout_marginTop="10dp"
+	    android:padding="10dp"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="0dp"
+	    android:layout_weight="1.0"
+	    android:layoutAnimation="@null"
+	    android:dividerHeight="0px"
+	    />
+</LinearLayout>

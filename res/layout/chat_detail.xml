@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="wrap_content"
+        layout="@layout/title" />
+
+    <LinearLayout
+        
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp" >
+        <HorizontalScrollView 
+             android:layout_width="fill_parent"
+	         android:layout_height="wrap_content"
+	         android:background="@drawable/chat_recoder_bg"
+            >
+			<LinearLayout
+			   
+	            android:id="@+id/div_chatUsers"
+	            android:orientation="horizontal"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:gravity="center_vertical" >
+				
+			    <ImageButton 
+			         android:background="@drawable/card_head_bg"
+			         android:layout_margin="5dp"
+			         android:src="@drawable/ic_face"
+			         android:layout_width="wrap_content"
+	            	 android:layout_height="wrap_content"
+			        />
+			    
+			    <ImageButton 
+			         android:background="@drawable/btn_roominfo_add"
+			         android:layout_margin="5dp"
+			         android:layout_width="wrap_content"
+	            	 android:layout_height="wrap_content"
+			        />
+	            
+	        </LinearLayout>
+        </HorizontalScrollView>
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:id="@+id/menu_chat_top"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/preference_single_item"
+            android:clickable="true"
+            android:gravity="center_vertical" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:scaleType="matrix"
+                android:src="@null" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/CHAT_MENU_TOP"
+                android:textColor="#000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txt2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:paddingRight="10dip"
+                android:textColor="@color/hintColor" />
+            <CheckBox  android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="10dip"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:id="@+id/menu_chat_wallpaper"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/preference_single_item"
+            android:clickable="true"
+            android:gravity="center_vertical" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:scaleType="matrix"
+                android:src="@null" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/CHAT_MENU_WALLPAPER"
+                android:textColor="#000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txt2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableRight="@drawable/mm_submenu"
+                android:gravity="right"
+                android:paddingRight="10dip"
+                android:textColor="@color/hintColor" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/menu_chat_clear"
+            android:layout_marginTop="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/preference_single_item"
+            android:clickable="true"
+            android:gravity="center_vertical" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:scaleType="matrix"
+                android:src="@null" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/CHAT_MENU_CLEAR"
+                android:textColor="#000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txt2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableRight="@drawable/mm_submenu"
+                android:gravity="right"
+                android:paddingRight="10dip"
+                android:textColor="@color/hintColor" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

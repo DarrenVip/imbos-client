@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="create_sql">"
+        CREATE TABLE article(
+        	articleId vachar(30) NOT NULL PRIMARY KEY,
+        	name vachar(50),
+        	title vachar(50),
+        	content text,
+        	source vachar(50),
+        	keywords vachar(50),
+        	createTime date
+        );
+        CREATE TABLE FRIEND_ALL(
+        	UID vachar(30) NOT NULL PRIMARY KEY,
+        	NAME vachar(50),
+        	HEAD vachar(255),
+        	STAR int,
+        	REAL int,
+        	DOING vachar(255),
+        	PINGYIN vachar(255),
+        	ALIAS vachar(50),
+        	ALIAS_PINGYIN vachar(255),
+        	TYPE int,
+        	NOTE vachar(255),
+        	STATUS int,
+        	CREATE_DATE date default (datetime('now')),
+        	UPDATE_DATE date,
+        	SRC_ACTION vachar(255)
+        );
+        
+        CREATE TABLE MEMBER_DETAIL(
+        	UID vachar(30) NOT NULL PRIMARY KEY,
+        	NAME vachar(50),
+        	HEAD vachar(255),
+        	STAR int,
+        	REAL int,
+        	DOING vachar(255),
+        	ALIAS vachar(255),
+        	SEX int,
+        	ENTERPRISE vachar(255),
+        	ISFRIEND int,
+        	BIRTH vachar(255),
+        	GRADUATE vachar(255),
+        	INDUSTRY vachar(255),
+        	PROFESSION vachar(255),
+        	POST vachar(255),
+        	INTEREST vachar(255),
+        	AREA int,
+        	LONGITUDE vachar(30),
+			LATITUDE vachar(30),
+			DIS vachar(30),
+        	DISTANCE int,
+        	UNUM vachar(255),
+        	TYPE int,
+			CREATE_DATE date default (datetime('now')),
+        	UPDATE_DATE date,
+        	SRC_ACTION vachar(255)
+        );
+        
+        CREATE TABLE MEMBER_FIND(
+        	UID vachar(30) NOT NULL PRIMARY KEY,
+        	NAME vachar(50),
+        	HEAD vachar(255),
+        	STAR int,
+        	REAL int,
+        	DOING vachar(255),
+        	ALIAS vachar(255),
+        	SEX int,
+        	ENTERPRISE vachar(255),
+        	ISFRIEND int,
+        	BIRTH vachar(255),
+        	GRADUATE vachar(255),
+        	INDUSTRY vachar(255),
+        	PROFESSION vachar(255),
+        	POST vachar(255),
+        	INTEREST vachar(255),
+        	AREA int,
+        	LONGITUDE vachar(30),
+			LATITUDE vachar(30),
+			DIS vachar(30),
+        	DISTANCE int,
+        	UNUM vachar(255),
+        	TYPE int,
+			CREATE_DATE date default (datetime('now')),
+        	UPDATE_DATE date,
+        	SRC_ACTION vachar(255)
+        );
+        
+        CREATE TABLE DIC(
+        	ID int NOT NULL PRIMARY KEY,
+			PARENT_ID int,
+			NAME vachar(255),
+			EN_NAME vachar(255),
+			ORD int,
+			CREATE_DATE date default (datetime('now')),
+        	UPDATE_DATE date,
+        	SRC_ACTION vachar(255)
+        );
+        
+        CREATE TABLE ENTERPRISE_FINDFUND(
+        	FUNDID int NOT NULL PRIMARY KEY,
+			FUNDNAME vachar(255),
+			FUNDINTRO vachar(255),
+			INVESTMENTWAY vachar(255),
+			FINANCIALSTRENGTH vachar(255),
+			INVESTMENTFIELD int,
+			NAME vachar(255),
+			EID int,
+        	UPDATE_DATE datetime,
+        	SRC_ACTION vachar(255)
+        );
+        
+        CREATE TABLE ENTERPRISE_FINDPROJECT(
+        	PROJECTID int NOT NULL PRIMARY KEY,
+			PROJECTNAME vachar(255),
+			PROJECTINTRO vachar(255),
+			FINANCINGWAY int,
+			INDUSTRYCLASSIFICATION int,
+			ASSETVALUE int,
+			FINANCINGAMOUNT int,
+			NAME vachar(255),
+			EID int,
+        	UPDATE_DATE datetime,
+        	SRC_ACTION vachar(255)
+        );
+        
+        CREATE TABLE ENTERPRISE_FINDGS(
+        	GSID int NOT NULL PRIMARY KEY,
+			GSNAME vachar(255),
+			GSINTRO vachar(255),
+			INDUSTRYINVOLVED int,
+			PRODUCTCLASSIFICATION int,
+			AREA vachar(255),
+			NAME vachar(255),
+			EID int,
+        	UPDATE_DATE datetime,
+        	SRC_ACTION vachar(255)
+        );
+        
+        CREATE TABLE ENTERPRISESETTING_FINDENTERPRISEDETAIL(
+        	EID int NOT NULL PRIMARY KEY,
+			NAME vachar(255),
+			LOGO vachar(255),
+			VIP vachar(255),
+			REAL vachar(255),
+			INDUSTRY vachar(255),
+			LONGITUDE vachar(255),
+			LATITUDE vachar(255),
+			DISTANCE vachar(255),
+			UPDATE_DATE datetime,
+        	SRC_ACTION vachar(255)
+        );
+        
+        CREATE TABLE QUERY_HISTROY(
+        	ID int NOT NULL PRIMARY KEY,
+			QUERY_DATE date,
+			QUERY_CONDITION_SHOW vachar(255),
+			QUERY_CONDITION vachar(255),
+			QUERY_ID vachar(255),
+			TYPE vachar(50)
+        );
+        
+        CREATE TABLE ENTERPRISESETTING_EDITEIM(
+        	EID int NOT NULL PRIMARY KEY,
+	        ABBREVIATION vachar(255),
+			INDUSTRY int,
+			CITY int,
+			CONTACT_ADD vachar(255),
+			POSTCODE vachar(255),
+			SUMMARY vachar(255),
+			REPRESENTATIVE vachar(255),
+			ORGCODE vachar(255),
+			SERVICE_FIELD int
+		);
+		 CREATE TABLE MEMBERSETTING_FINDHOMEPAGES
+		 (
+	        UID vachar(30) NOT NULL PRIMARY KEY,
+			HEAD vachar(30),
+			USERNAME vachar(30),
+			NAME vachar(30),
+			SEX vachar(30),
+			BIRTH vachar(30),
+			AREA vachar(30),
+			C_DOING vachar(30),
+			CREDIT vachar(30),
+			C_ENTERPRISE vachar(30),
+			C_GRADUATE vachar(30),
+			C_INDUSTRY vachar(30),
+			C_PROFESSION vachar(30),
+			C_POST vachar(30),
+			C_INTEREST vachar(30),
+			C_TYPE vachar(30),
+			UPDATE_DATE datetime,
+        	SRC_ACTION vachar(255)
+		);
+		
+		CREATE TABLE MEMBERSETTING_FINDACCOUNT
+		 (
+		  	UID vachar(30) NOT NULL PRIMARY KEY,
+	        UNUM vachar(255),
+			EMAIL vachar(255),
+			EMAILCHECK vachar(255),
+			IDCARD vachar(255),
+			IDCARDCHECK vachar(255),
+			MOBILE vachar(255),
+			MOBILECHECK vachar(255),
+			UPDATE_DATE datetime,
+        	SRC_ACTION vachar(255)
+		);
+		CREATE TABLE MEMBERSETTING_FINDATTENTION (
+			EID vachar(30) NOT NULL PRIMARY KEY,
+			NAME vachar(255),
+			LOGO vachar(255),
+			VIP vachar(255),
+			REAL vachar(255),
+			INDUSTRY vachar(255),
+			UPDATE_DATE datetime,
+        	SRC_ACTION vachar(255)
+		);
+		CREATE TABLE ENTERPRISE_FINDID (
+			EID vachar(30) NOT NULL PRIMARY KEY,
+			NAME vachar(255),
+			LOGO vachar(255),
+			VIP vachar(255),
+			REAL vachar(255),
+			INDUSTRY vachar(255),
+			UPDATE_DATE datetime,
+        	SRC_ACTION vachar(255)
+		);
+		CREATE TABLE MEMBER_CONTRAST (
+			UID vachar(30),
+			PHONE vachar(255) NOT NULL PRIMARY KEY,
+			LOCAL_NAME vachar(255),
+			UPDATE_DATE datetime,
+        	SRC_ACTION vachar(255)
+		);
+		CREATE TABLE SESSIONS(
+        	UID vachar(30) NOT NULL PRIMARY KEY,
+        	LAST_MESSAGE varchar(500),
+        	LAST_DATE date,
+        	ORDER_NUM int
+        )"</string>
+        <string name="update_sql">
+			 ALTER TABLE FRIEND_ALL ADD STATUS int
+		</string>
+</resources>

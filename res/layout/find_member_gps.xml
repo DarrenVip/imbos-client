@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include
+        layout="@layout/title" />
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        
+        android:background="@drawable/search_bar_bg"
+        android:orientation="vertical" >
+		<com.imbos.chat.view.ToggleButton
+		    android:visibility="gone"
+		    android:layout_marginTop="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp" />
+		
+		<LinearLayout 
+		     android:layout_margin="10dp"
+	           
+		    android:orientation="horizontal"
+		    android:layout_width="fill_parent"
+		    android:gravity="center_vertical"
+		    android:layout_height="wrap_content">
+	        
+	        <Button style="@style/Buttom"
+	            android:id="@+id/btn_confirm"
+	            android:drawableLeft="@drawable/ico_location"
+	            android:layout_marginLeft="10dp"
+	            android:text="@string/GENERAL_CONFIRM"
+	            android:textColor="@color/textColor"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            />
+        </LinearLayout>
+    </LinearLayout>
+	<ListView 
+	    style="@style/ListView"
+	    android:id="@android:id/list"
+	    android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+	    />
+</LinearLayout>

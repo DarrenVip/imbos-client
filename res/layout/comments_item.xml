@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/img_face"
+                android:layout_width="52dp"
+                android:layout_height="52dp"
+                android:background="@drawable/card_head_bg"
+                android:padding="5dp"
+                android:src="@drawable/default_face" />
+
+            <TextView
+                android:id="@+id/tv_author"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" 
+            android:background="@drawable/comments_bg">
+
+            <TextView
+                android:id="@+id/tv_message"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:textSize="14sp" 
+                android:paddingLeft="15sp"
+                android:paddingTop="3dp"/>
+
+            <TextView
+                android:id="@+id/tv_dateline"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="right|bottom"
+                android:textColor="@android:color/white"
+                android:textSize="14sp" 
+                android:padding="5dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

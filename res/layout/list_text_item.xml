@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<LinearLayout 
+	    android:id="@+id/list_category"
+	    android:visibility="gone"
+	    android:layout_width="fill_parent"
+	    style="@style/MMListCatalog"
+		android:layout_height="wrap_content"
+	    android:orientation="horizontal">
+	    <TextView 
+        style="@style/TextView.Key"
+		android:id="@+id/txt_category"
+		android:background="@null"
+		android:layout_width="wrap_content"
+		android:layout_height="fill_parent"
+		android:text="@string/app_name"/>
+	    <TextView 
+			android:id="@+id/txt2"
+			style="@style/TextView.Value"
+			android:gravity="right"
+			android:background="@null"
+			android:layout_width="0dp"
+			android:layout_weight="1"
+			android:layout_height="fill_parent"
+			/>
+	    <CheckBox 
+	        android:visibility="gone"
+	        android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+	</LinearLayout>
+	<LinearLayout 
+	    android:padding="10dp"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal">
+	    <TextView 
+        style="@style/TextView.Key"
+		android:id="@+id/txt1"
+		android:background="@null"
+		android:layout_width="wrap_content"
+		android:layout_height="fill_parent"
+		android:text="@string/app_name"/>
+	    <TextView 
+			android:id="@+id/txt2"
+			style="@style/TextView.Value"
+			android:gravity="right"
+			android:background="@null"
+			android:layout_width="0dp"
+			android:layout_weight="1"
+			android:layout_height="fill_parent"
+			/>
+	     <CheckBox 
+	        android:id="@+id/checkBox"
+	        android:visibility="gone"
+	        android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+	    <ImageView 
+	        android:id="@+id/subMenu"
+	        android:src="@drawable/mm_submenu"
+	        android:layout_height="fill_parent"
+	        android:layout_width="wrap_content"/>
+	</LinearLayout>
+    
+</LinearLayout>
+	
+	

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+	<include layout="@layout/title" />
+	<include layout="@layout/search_bar"/>
+    
+	<LinearLayout
+	    android:padding="10dp" 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	    >
+	
+		<LinearLayout
+		    android:id="@+id/item_area"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:background="@drawable/preference_first_item"
+		    android:clickable="true"
+		    android:gravity="center_vertical" >
+	
+	        <ImageView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:paddingLeft="10dp"
+	            android:scaleType="matrix"
+	            android:src="@null" />
+	
+	        <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:padding="10dp"
+	            android:text="@string/M_FIND_AREA"
+	            android:textColor="#000"
+	            android:textSize="18sp" />
+	
+	        <TextView
+	            android:id="@+id/txt2"
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1"
+	            android:drawableRight="@drawable/mm_submenu"
+	            android:gravity="right"
+	            android:textColor="@color/hintColor" />
+	    </LinearLayout>
+	    
+		<LinearLayout
+	        android:id="@+id/item_age"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/preference_item"
+	        android:clickable="true"
+	        android:gravity="center_vertical" >
+	
+	        <ImageView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:paddingLeft="10dp"
+	            android:scaleType="matrix"
+	            android:src="@null" />
+	
+	        <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:padding="10dp"
+	            android:text="@string/M_FIND_EAG"
+	            android:textColor="#000"
+	            android:textSize="18sp" />
+	
+	        <TextView
+	             android:id="@+id/txt2"
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1"
+	            android:drawableRight="@drawable/mm_submenu"
+	            android:gravity="right"
+	            android:textColor="@color/hintColor" />
+	    </LinearLayout>
+		
+		<LinearLayout
+	        android:id="@+id/item_sex"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/preference_item"
+	        android:clickable="true"
+	        android:gravity="center_vertical" >
+	
+	        <ImageView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:paddingLeft="10dp"
+	            android:scaleType="matrix"
+	            android:src="@null" />
+	
+	        <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:padding="10dp"
+	            android:text="@string/M_FIND_SEX"
+	            android:textColor="#000"
+	            android:textSize="18sp" />
+	
+	        <TextView
+	             android:id="@+id/txt2"
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1"
+	            android:drawableRight="@drawable/mm_submenu"
+	            android:gravity="right"
+	            android:textColor="@color/hintColor" />
+	    </LinearLayout>
+	    <LinearLayout
+	        android:id="@+id/item_industry"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/preference_item"
+	        android:clickable="true"
+	        android:gravity="center_vertical" >
+	
+	        <ImageView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:paddingLeft="10dp"
+	            android:scaleType="matrix"
+	            android:src="@null" />
+	
+	        <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:padding="10dp"
+	            android:text="@string/M_FIND_INDUSTRY"
+	            android:textColor="#000"
+	            android:textSize="18sp" />
+	
+	        <TextView
+	             android:id="@+id/txt2"
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1"
+	            android:drawableRight="@drawable/mm_submenu"
+	            android:gravity="right"
+	            android:textColor="@color/hintColor" />
+	    </LinearLayout>
+	    <LinearLayout
+	        android:id="@+id/item_profession"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/preference_last_item"
+	        android:clickable="true"
+	        android:gravity="center_vertical" >
+	
+	        <ImageView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:paddingLeft="10dp"
+	            android:scaleType="matrix"
+	            android:src="@null" />
+	
+	        <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:padding="10dp"
+	            android:text="@string/M_FIND_PROFESSION"
+	            android:textColor="#000"
+	            android:textSize="18sp" />
+	
+	        <TextView
+	             android:id="@+id/txt2"
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1"
+	            android:drawableRight="@drawable/mm_submenu"
+	            android:gravity="right"
+	            android:textColor="@color/hintColor" />
+	    </LinearLayout>  
+	    
+	    <Button 
+	        android:id="@+id/btn_green"
+	        style="@style/MyButtonGreen"
+	        android:layout_marginTop="20dp"
+	        android:text="@string/GENERAL_SEARCH"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"/>
+	</LinearLayout>
+</LinearLayout>

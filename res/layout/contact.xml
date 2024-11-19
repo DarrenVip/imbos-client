@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <include android:id="@+id/title_id" layout="@layout/title"/>
+    <LinearLayout 
+        android:layout_alignParentBottom="true"
+	    android:id="@+id/div_bottom"
+        android:layout_height="0dp"  
+	    android:layout_width="fill_parent"  
+	    android:background="@drawable/chat_recoder_bg"
+        android:orientation="horizontal">
+    <HorizontalScrollView 
+        android:layout_height="wrap_content"  
+	    android:layout_width="0dp"
+	    android:layout_weight="1"  
+	    
+	    >
+	    <LinearLayout 
+	        android:layout_height="wrap_content"  
+	    	android:layout_width="wrap_content"  >
+	    	<ImageView 
+	    	    android:layout_margin="5dp"
+	    	    android:src="@drawable/ic_face"
+	    	    android:layout_height="30dp"  
+	    		android:layout_width="30dp"  
+	    	    />
+	    </LinearLayout>
+	</HorizontalScrollView>
+
+	<Button
+	    style="@style/Buttom"
+	    android:textColor="@android:color/white"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_vertical"
+	    android:layout_margin="2dp"
+	    android:background="@drawable/btn_blue"
+	    android:text="@string/GENERAL_CONFIRM" />
+
+	</LinearLayout>
+    <ListView
+	    style="@style/ListView"
+	    android:layout_below="@id/title_id"
+	    android:layout_above="@id/div_bottom"
+	    android:id="@android:id/list"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="fill_parent"
+	    android:scrollbars="none"
+	    />
+	<com.imbos.chat.view.SideBar  
+	    android:id ="@+id/sideBar"  
+	    android:textSize="12sp"
+	    android:layout_below="@id/title_id"
+	    android:layout_alignParentRight="true"
+	    android:layout_above="@id/div_bottom"
+	    android:layout_height="fill_parent"  
+	    android:layout_width="20dp"  
+	    android:layout_gravity="right|center_vertical"
+	/> 
+	
+</RelativeLayout>

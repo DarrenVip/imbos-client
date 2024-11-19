@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string name="app_name">商加</string>
+  	<string name="copyrigth"></string>
+	
+	<string name="GENERAL_WARNING">提示</string>
+	<string name="GENERAL_CONFIRM">确定</string>
+	<string name="GENERAL_REFRESH">刷新</string>
+	<string name="GENERAL_VIEW">查看</string>
+	<string name="GENERAL_INVITE">邀请</string>
+	
+	<string name="GENERAL_BACK">返回</string>
+	<string name="GENERAL_CANCEL">取消</string>
+	<string name="GENERAL_TIP">提示</string>
+	<string name="GENERAL_CONFIRM_BACK">您确定返回吗?</string>
+	<string name="GENERAL_CONFIRM_EXIT">您确定退出吗?</string>
+	<string name="GENERAL_CAMERA">拍照</string>
+	<string name="GENERAL_NEXT">下一步</string>
+	<string name="GENERAL_PRD">产品</string>
+	<string name="GENERAL_SAVE">保存</string>
+	<string name="GENERAL_SEND"> 发送 </string>
+	<string name="GENERAL_EXIT">退出</string>
+	<string name="GENERAL_SET">设置</string>
+	<string name="GENERAL_HELP"><a>帮助</a></string>
+	<string name="GENERAL_UPDATE"><a>点击更新</a></string>
+	<string name="GENERAL_REG"><a>注册帐号</a></string>
+	<string name="GENERAL_PWD"><a>找回密码</a></string>
+	<string name="GENERAL_RUN">正在运行</string>
+	
+	
+	<string name="GENERAL_CANNOT_USE">此版本暂不支持该功能</string>
+	<string name="GENERAL_PROCESS">解析</string>
+	<string name="GENERAL_DATA_SAVE_SUCCESS">数据已保存</string>
+	<string name="GENERAL_DATA_SAVE_FAIL">数据保存失败,请检查必填项或文本格式后重试</string>
+	<string name="GENERAL_SEND_BUG_MESSAGE">上一次程序未正常退出,是否发送错误报告</string>
+	<string name="GENERAL_SEND_BUG_TITLE">发送错误报告</string>
+	<string name="GENERAL_FC">抱歉!SFA 出了点小状况:</string>
+	<string name="GENERAL_DEFAULT">恢复默认</string>
+	<string name="GENERAL_HINT_REMARK">填写备注</string>
+	<string name="GENERAL_ADDRESS">地址</string>
+	<string name="GENERAL_HINT_SEARCH">输入查询</string>
+	
+	<string name="GENERAL_NET_PROCESS">正在连接网络...</string>
+	
+	<string name="GENERAL_UPLOAD">上传</string>
+	<string name="GENERAL_DELETE">删除</string>
+	<string name="GENERAL_IGNORE">忽略</string>
+	<string name="GENERAL_SEARCH">查询</string>
+	
+	<string name="GENERAL_MSG_UPLOAD">亲!您采集的数据还未上传到服务器</string>
+	<string name="GENERAL_MSG_DELETED">删除成功</string>
+	<string name="GENERAL_MSG_UPLOAD_SUCCESS">上传成功</string>
+	<string name="GENERAL_MSG_UPLOAD_FAIL">上传失败</string>
+	<string name="GENERAL_MSG_NO_DATA_UPLOAD">无数据上传</string>
+	<string name="GENERAL_MSG_VERSION_NEW">发现新版本!请及时更新</string>
+	<string name="GENERAL_EMPTY">未查询到数据</string>
+	
+	<string name="GENERAL_USERNAME">账号</string>
+	<string name="GENERAL_PASSWORD">密码</string>
+	<string name="GENERAL_LOGIN">登录</string>
+	<string name="GENERAL_SAVELOGIN">记住密码</string>
+	<string name="GENERAL_LOGIN_ERROR">用户名或密码错误</string>
+	
+	<string name="GENERAL_SEX_BOY">男</string>
+	<string name="GENERAL_SEX_GIRL">女</string>
+	
+	<string name="GENERAL_IMAGE_FAIL">获取图片失败</string>
+    
+    
+    <string name="hello">Hello Android,、</string>
+    <string name="settings">Settings</string>
+    <string name="SCANNING_OK">确定 </string>
+    <string name="SCANNING_RESTART">取消 </string>
+    
+    
+    
+    <string name="MENU_SESSION">会话</string>
+    <string name="MENU_CONTACT">通讯录</string>
+    <string name="MENU_CIRCLE">商友圈</string>
+    <string name="MENU_FIND">发现</string>
+    <string name="MENU_MORE">更多</string>
+    
+    <string name="SYNC_MSG_SYNCING">正在连接网络</string>
+	<string name="SYNC_MSG_FAILED">同步数据失败,请检查网络后重试！</string>
+	<string name="SYNC_MSG_UPLOAD_FAIL">上传数据失败，请检查网络后重试！</string>
+	<string name="SYNC_MSG_DOWNLOAD_FAIL">下载数据失败，请检查网络后重试！</string>
+	<string name="SYNC_MSG_SUCCESS">数据同步成功！</string>
+	
+	
+	<string name="TITLE_MEMBER">个人名片</string>
+	<string name="TITLE_SAYHI">打招呼</string>
+	<string name="TITLE_ALIAS">修改备注</string>
+	<string name="TITLE_CONTACT">通信录</string>
+	<string name="TITLE_FRIEND_RECOMMEND">推荐好友</string>
+	<string name="TITLE_FRIEND_COMPANY">企业好友</string>
+	<string name="TITLE_TELBOOK">手机通信录</string>
+	
+	<string-array name="SESSION_OPTIONS">
+	    <item>置顶</item>
+	    <item>删除</item>
+	</string-array>
+	
+	
+	<string name="CHAT_VIOCE_TIP">按住说话</string>
+	<string name="CHAT_VIOCE_TAUCH">松开发送</string>
+	<string name="CHAT_TEMP">临时回话</string>
+	
+	
+	<string name="GENERAL_MSG_SYNC_FAILED">更新数据失败</string>
+	<string name="GENERAL_MSG_SYNC_FINISH">更新数据成功</string>
+	<string name="GENERAL_MSG_SEND_FAILED">发送消息失败</string>
+	<string name="GENERAL_MSG_SEND_FINISH">发送数据成功</string>
+	
+	<string name="MEMBER_STAR">星标好友</string>
+	<string name="MEMBER_MSG_ADD_FAILED">添加好友失败</string>
+	<string name="MEMBER_MSG_ADD_FINISH">添加好友成功</string>
+	<string name="MEMBER_MSG_DEL_FAILED">删除好友失败</string>
+	<string name="MEMBER_MSG_DEL_FINISH">删除好友成功</string>
+	<string name="MEMBER_MSG_BLACK_FINISH">拉黑好友成功</string>
+	<string name="MEMBER_MSG_BLACK_FAILED">拉黑好友失败</string>
+	<string name="MEMBER_MSG_STAR_FINISH">加星好友成功</string>
+	<string name="MEMBER_MSG_STAR_FAILED">加星好友失败</string>
+	<string name="MEMBER_MSG_UNSTAR_FINISH">移除星标成功</string>
+	<string name="MEMBER_MSG_UNSTAR_FAILED">移除星标失败</string>
+	<string name="MEMBER_ADD_FRIEND">加为好友</string>
+	
+    <string name="MEMBER_MSG_ALIAS_FAILED">修改备注失败</string>
+	<string name="MEMBER_MSG_ALIAS_FINISH">修改备注成功</string>
+	<string name="MEMBER_ALIAS">备注:%s</string>
+	<string name="MEMBER_DISTANCE">%s km</string>
+	
+	
+	
+	<string name="CIRCLE_TITLE">商友圈</string>
+	<string name="CIRCLE_NEW">商友圈动态</string>
+	<string name="CIRCLE_NEW_TIP">暂未开放，敬请期待</string>
+	<string name="NOTHING"> </string>
+	
+	<string name="CIRCLE_SCAN">扫一扫</string>
+	<string name="CIRCLE_SCAN_TIP">扫描二维码</string>
+	<string name="CIRCLE_FIND_BYID">商加号/昵称查找</string>
+	<string name="CIRCLE_FIND_BYID_TIP">个人或企业</string>
+	<string name="CIRCLE_FIND_ADV">高级查找</string>
+	<string name="CIRCLE_FIND_ADV_TIP">行业,年龄,地区等</string>
+	<string name="CIRCLE_FIND_NEARBY">附近的人</string>
+	<string name="CIRCLE_FIND_NEARBY_TIP"></string>
+	<string name="CIRCLE_FIND_CONTACT">从手机通讯录中添加</string>
+	<string name="CIRCLE_FIND_CP_MEMBER">查找企业好友</string>
+	<string name="CIRCLE_FIND_CP_MEMBER_LIST">企业列表</string>
+	<string name="CIRCLE_FIND_CP_NEARBY">附近的企业</string>
+	<string name="CIRCLE_SHARE">推荐给好友</string>
+	
+	<string name="M_FIND_AREA">地区</string>
+	<string name="M_FIND_EAG">年龄</string>
+	<string name="M_FIND_SEX">性别</string>
+	<string name="M_FIND_INDUSTRY">行业</string>
+	<string name="M_FIND_PROFESSION">职业</string>
+	<string name="M_FIND_RESULT">搜索结果</string>
+	<string name="M_FIND_RANGE">经营范围</string>
+	<string name="M_ADD_EMEMBER">添加企业好友</string>
+	<string name="EM_DETAIL_TITLE">企业名片</string>
+	<string name="EM_DETAIL_HOMEPAGE">主页</string>
+	<string name="EM_DETAIL_ABOUTUS">关于我们</string>
+	<string name="EM_DETAIL_SERVICE">产品服务</string>
+	<string name="EM_DETAIL_DYNAMIC">企业动态</string>
+	<string name="EM_DETAIL_SCALE">企业规模</string>
+	<string name="EM_DETAIL_INDUSTRY">所属行业</string>
+	<string name="EM_DETAIL_SUMMARY">企业简介</string>
+	<string name="EM_DETAIL_CID">评论ID</string>
+	<string name="EM_DETAIL_COMMENTS">评论数</string>
+	<string name="EM_DETAIL_PRAISE">赞数</string>
+	<string name="EM_DETAIL_ATTENTION">关注数</string>
+	<string name="EM_DETAIL_SERVICEFIELD">经营范围</string>
+	<string name="EM_DETAIL_ORGCODE">组织结构</string>
+	
+	<string name="F_GPS">当前位置：%s</string>
+	<string name="F_JOB">找工作</string>
+	<string name="F_TALENT">找人才</string>
+	<string name="F_FUND">找资金</string>
+	<string name="F_PROJECT">找项目</string>
+	<string name="F_PRODUCT">产品/服务</string>
+	<string name="F_PARTY">聚会/活动</string>
+	<string name="F_SD">找供需</string>
+	<string name="F_BUSINESS">商情交易大厅</string>
+	
+	
+	<string name="pull_to_refresh_pull_label">下拉刷新&#8230;</string>
+    <string name="pull_to_refresh_release_label">释放刷新&#8230;</string>
+    <string name="pull_to_refresh_refreshing_label">正在加载&#8230;</string>
+    <string name="pull_to_refresh_tap_label">Tap to refresh&#8230;</string>
+	
+	
+	<string name="ORIENTATION_LOADING">正在获取地理位置信息,请稍等...</string>
+	<string name="ORIENTATION_DEVIATION">门店位置不符，请拍照验证!</string>
+	<string name="ORIENTATION_GPS_NOT_OPEN">GPS设备未开启!</string>
+	<string name="ORIENTATION_NETWORK_NOT_OPEN">网络设备未开启!</string>
+	<string name="ORIENTATION_DEVICE_NONSUPPORT">设备不支持!</string>
+	<string name="ORIENTATION_FAIL">定位失败!</string>
+	<string name="ORIENTATION_TIMEOUT">定位失败,确定继续.</string>
+	
+	<string name="FIND_FUNDS">找资金</string>
+	<string name="FIND_FUNDS_INVESTMENT">融资方式</string>
+	<string name="FIND_FUNDS_STRENGTH">资金规模</string>
+	<string name="FIND_FUNDS_FIELD">资金渠道</string>
+	<string name="FIND_FUNDS_COST">资金成本</string>
+	<string name="FIND_FUNDS_LIST">资金</string>
+	<string name="FIND_FUNDS_DETAIL">资金详细信息</string>
+	
+	<string name="FIND_SUBJECT">找项目</string>
+	<string name="FIND_SUBJECT_FINANCING">投资形式</string>
+	<string name="FIND_SUBJECT_INDUSTRY">投资行业</string>
+	<string name="FIND_SUBJECT_AMOUNT">投资规模</string>
+	<string name="FIND_SUBJECT_RATE">投资回报率</string>
+	<string name="FIND_SUBJECT_LIST">项目</string>
+	<string name="FIND_SUBJECT_DETAIL">项目详细信息</string>
+	
+	<string name="FIND_PRODUCTSERVICE">商品/服务</string>
+	<string name="FIND_PRODUCTSERVICE_INDUSTRY">所属行业</string>
+	<string name="FIND_PRODUCTSERVICE_CLASSIFICATION">产品分类</string>
+	<string name="FIND_PRODUCTSERVICE_AREA">所在地区</string>
+	<string name="FIND_GS_LIST">商品/服务</string>
+	<string name="FIND_GS_DETAIL">详细信息</string>
+	<string name="loading">加载中...</string>
+	
+	<string name="EP_HOMEPAGE">企业主页</string>
+	<string name="EP_CARD">企业名片</string>
+	<string name="EP_INFO_MANAGE">企业信息维护</string>
+	<string name="EP_SINGLEUSER_MANAGE">企业个人用户维护</string>
+	<string name="EP_STAFF_MANAGE">企业员工管理</string>
+	<string name="EP_VIP">企业VIP</string>
+	<string name="EP_APPROVE_MANAGE">企业认证管理</string>
+	<string name="EP_MONEY_MANAGE">资金管理</string>
+	<string name="EP_PROJECT_MANAGE">项目管理</string>
+	<string name="EP_SERVICE">商品/服务</string>
+	<string name="EP_INFORMESSION_MANAGE">企业信息管理</string>
+	<string name="EP_SHORTNAME">企业简称</string>
+	<string name="EP_AREA">所在地区</string>
+	<string name="EP_ADDRESS">公司地址</string>
+	<string name="EP_ZIP">邮编</string>
+	<string name="EP_INDUSTRY">所属行业</string>
+	<string name="EP_LEGAL_PERSON">法定代表人</string>
+	<string name="EP_INTRO">企业简介</string>
+	<string name="EP_ORGCODE">组织机构代码</string>
+	<string name="EP_OPERATE_TYPE">经营类型</string>
+	<string name="EP_LICENSE">营业执照</string>
+	<string name="EP_APPROVE_STATE">认证状态</string>
+	<string name="EP_PROMOTE_MANAGER">提升为管理员</string>
+	<string name="EP_RELIEVE_MANAGER">解除管理员</string>
+	<string name="EP_USER_CLEARPWD">清空密码</string>
+	<string name="EP_COMMENTS_LIST">评论</string>
+	
+	<string name="CHAT_DETAIL">聊天信息</string>
+	<string name="CHAT_MENU_TOP">聊天置顶</string>
+	<string name="CHAT_MENU_WALLPAPER">聊天背景</string>
+	<string name="CHAT_MENU_CLEAR">清空聊天记录</string>
+	<string name="CHAT_MSGTYPE_EMOJI">表情</string>
+	<string name="CHAT_MSGTYPE_PIC">图片</string>
+	<string name="CHAT_MSGTYPE_CAMERA">拍照</string>
+	<string name="CHAT_MSGTYPE_FILE">文档</string>
+	
+	<string name="SET_ACCOUNT">帐号</string>
+	<string name="SET_CARD">我的名片</string>
+	<string name="SET_HOME">我的主页</string>
+	<string name="SET_EP_CARD">企业名片</string>
+	<string name="SET_UI">界面</string>
+	<string name="SET_SAFE">安全和隐私</string>
+	<string name="SET_COM">通用</string>
+	<string name="SET_CLEAR">清空全部消息</string>
+	<string name="SET_MSG_CLEAR">确定要清空全部聊天消息吗？</string>
+	<string name="SET_ABOUT">关于 “商加”</string>
+	
+	<string name="ACCOUNT_PHONE">手机号</string>
+	<string name="ACCOUNT_IDCARD">身份证号</string>
+	<string name="ACCOUNT_EMAIL">邮箱</string>
+	<string name="ACCOUNT_MODF_PWD">修改密码</string>
+	
+	<string name="USER_CARD_FACE">头像</string>
+	<string name="USER_CARD_NICKNAME">昵称</string>
+	<string name="USER_CARD_NAME">姓名</string>
+	<string name="USER_CARD_SEX">性别</string>
+	<string name="USER_CARD_BIRTHDAY">生日</string>
+	<string name="USER_CARD_AREA">地区</string>
+	<string name="USER_CARD_ADDR">地址</string>
+	<string name="USER_CARD_DOING">个性签名</string>
+	<string name="USER_CARD_SCODE">积分</string>
+	<string name="USER_CARD_SCHOOL">毕业学校</string>
+	<string name="USER_CARD_COMPANY">公司名称</string>
+	<string name="USER_CARD_ALBUM">我的照片墙</string>
+	<string name="USER_CARD_CRQUDE">二维码名片</string>
+	<string name="USER_CARD_WATCH">关注</string>
+	<string name="USER_CARD_XQ">兴趣爱好</string>
+	
+	
+	
+	<string name="SET_LOGOUT">退出登录</string>
+	<string name="SET_NUM">商加号</string>
+	<string name="IMG_TITLE">图片</string>
+	
+	
+	<string name="REG_SUCCESS_TIP">注册成功,你的商加号是  &lt;font size=18 color=#00A4F2> %1$s &lt;/font> ,是否立即登录?</string>
+	<string name="REG_GET_VALICODE">获取验证码</string>
+	<string name="REG_MSG_NICKNAME_EMPLY">昵称不能为空</string>
+	<string name="REG_MSG_PASSWORD_EMPLY">密码不能为空</string>
+	<string name="REG_MSG_PHONE_ERROR">验证码不正确,手机号验证不通过.</string>
+	<string name="REG_MSG_PASSWORD_CFM">两次输入的密码不一致</string>
+	<string name="REG_MSG_PHONE_SEND">短信已发送成功</string>
+	
+	<string name="CHANGE_PWD_MSG_FINISH">修改密码完成</string>
+	<string name="CHANGE_PWD_MSG_FAIL">修改密码失败</string>
+	
+	<string name="FIND_PWD_TITLE">找回密码</string>
+	<string name="FIND_PWD_PHONE_EMPLY">手机号不能为空</string>
+	<string name="FIND_PWD_PHONE_VALICODE">验证码不能为空</string>
+	<string name="FIND_PWD_PASSWORD_EMPLY">密码不能为空</string>
+	<string name="FIND_PWD_PASSWORD_CFM">两次输入的密码不一致</string>
+	<string name="FIND_PWD_MSG_VALICODE_FAIL">获取验证码失败</string>
+	<string name="FIND_PWD_MSG_VALICODE_FINISH">验证码已发送</string>
+	
+</resources>

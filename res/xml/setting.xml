@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:title="设置">
+   <PreferenceCategory android:title="服务器设置">
+   	 <EditTextPreference android:title="服务器地址" 
+   	    android:key="saasHost"
+   	 	android:dialogTitle="设置服务器地址"
+   	 	/>
+   	 <EditTextPreference android:title="服务器端口"
+   	 	 android:key="saasPort"
+   	 	 android:dialogTitle="设置服务器端口"
+   	 	 />
+   	<EditTextPreference android:title="数据同步路径"
+   	 	 android:key="saasPath"
+   	 	 android:dialogTitle="设置数据同步路径"
+   	 />
+   	  
+   </PreferenceCategory>
+   
+</PreferenceScreen>
+

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+       <include layout="@layout/title"/>
+       <ScrollView 
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content">
+           
+       <TableLayout  
+           android:layout_marginTop="10dp"
+           android:stretchColumns="1"
+           android:layout_height="wrap_content"
+           android:layout_width="fill_parent"
+           android:padding="8dp"
+           >
+           <TableRow 
+               android:padding="5dp"
+               android:background="@drawable/preference_first_item">
+
+               <TextView
+                   style="@style/TextView.Key"
+                   android:text="帐号：" />
+
+               <EditText style="@style/EditText.Smail" 
+                   android:id="@+id/edit_num"
+                   android:enabled="false"
+                   android:layout_marginRight="10dp"/>
+           </TableRow>
+           <TableRow 
+               android:padding="5dp"
+               android:background="@drawable/preference_item">
+               <TextView style="@style/TextView.Key" android:text="旧密码："/>
+               <EditText style="@style/EditText.Smail" 
+                   android:inputType="textPassword"
+                   android:id="@+id/edit_password"
+                   android:layout_marginRight="10dp"/>
+           </TableRow>
+           <TableRow 
+               android:padding="5dp"
+               android:background="@drawable/preference_item">
+               <TextView style="@style/TextView.Key" android:text="新密码："/>
+               <EditText style="@style/EditText.Smail" 
+                   android:inputType="textPassword"
+                   android:id="@+id/edit_newPassword"
+                   android:layout_marginRight="10dp"/>
+           </TableRow>
+           <TableRow 
+               android:padding="5dp"
+               android:background="@drawable/preference_item">
+               <TextView style="@style/TextView.Key" android:text="确认密码："/>
+               <EditText 
+                   android:id="@+id/edit_cfmPassword"
+                   android:inputType="textPassword"
+                   style="@style/EditText.Smail" android:layout_marginRight="10dp"/>
+           </TableRow>
+           
+           <Button
+               android:id="@+id/btn_green"
+               style="@style/MyButtonGreen"
+               android:layout_marginTop="20dp"
+               android:layout_span="2"
+               android:text="确定" />
+
+       </TableLayout>    
+       
+      
+      </ScrollView>
+</LinearLayout>

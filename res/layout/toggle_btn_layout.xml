@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/usage_list_dark" >
+    
+    <TextView 
+        android:id="@+id/left_btn"
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="#ff000000"
+        android:textSize="16dp"
+        android:text="个人"
+        android:padding="2dp"
+        android:background="@drawable/usage_list_green"/>
+    
+    <TextView 
+        android:padding="2dp"
+        android:id="@+id/right_btn"
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="#ffffffff"
+        android:textSize="16dp"
+        android:text="企业"/>
+    
+
+</LinearLayout>

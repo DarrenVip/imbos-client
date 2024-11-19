@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent"
+	android:background="@android:color/white">
+	<ImageView 
+	    android:padding="5dp"
+	    android:id="@android:id/icon"
+	    android:src="@drawable/icon"
+	    android:scaleType="matrix"
+	    android:layout_width="62dp"
+	    android:layout_height="62dp"/>
+	
+	<TextView 
+	    android:layout_width="fill_parent"
+	    android:layout_toRightOf="@android:id/icon"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="5dip"
+		android:layout_marginBottom="5dip"
+		android:textAppearance="@android:style/TextAppearance.Medium.Inverse"
+		android:id="@+id/text_appname"/>
+	
+	<TextView 
+	    android:id="@+id/text_progress"
+	    android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="5dip"
+		
+		android:layout_alignParentRight="true"
+		android:layout_below="@id/text_appname"/>
+	
+	<ProgressBar 
+	    android:layout_width="wrap_content" 
+		android:id="@+id/progressBar"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/text_appname"
+		android:layout_toRightOf="@android:id/icon"
+		android:layout_toLeftOf="@id/text_progress"
+        style="@android:style/Widget.ProgressBar.Horizontal"/>
+	
+	
+</RelativeLayout>

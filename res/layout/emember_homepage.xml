@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp" 
+        android:background="@drawable/shape">
+
+        <include layout="@layout/emember_datail_title" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="5dp"
+            android:background="#E2E2E2" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp" >
+
+            <TextView
+                android:id="@+id/txt_dynamic"
+                style="@style/common_text_style"
+                android:text="@string/EM_DETAIL_DYNAMIC" />
+
+            <TextView
+                android:id="@+id/txt_scale"
+                style="@style/common_text_style"
+                android:text="@string/EM_DETAIL_SCALE" />
+
+            <TextView
+                android:id="@+id/txt_industry"
+                style="@style/common_text_style"
+                android:text="@string/EM_DETAIL_INDUSTRY" />
+
+            <TextView
+                android:id="@+id/txt_summary"
+                style="@style/common_text_style"
+                android:text="@string/EM_DETAIL_SUMMARY" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal"
+                android:gravity="bottom"
+                android:id="@+id/layout_comments">
+				<TextView android:layout_width="0dp"
+                	android:layout_height="wrap_content"
+                	android:layout_weight="1"
+                	android:text="咨询"
+                	android:textSize="18sp"
+                	android:textColor="#2BA4D2"/>
+                <Button
+                    android:id="@+id/btn_comments"
+                    android:layout_width="45dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape"
+                    android:drawableLeft="@drawable/ic_tip"
+                    android:layout_margin="4dp"
+                    android:paddingLeft="5dp"/>
+
+                <Button
+                    android:id="@+id/txt_praise"
+                    android:layout_width="45dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape"
+                    android:drawableLeft="@drawable/ic_laud"
+                    android:layout_margin="4dp"
+                    android:paddingLeft="5dp"/>
+
+                <Button
+                    android:id="@+id/txt_attention"
+                    android:layout_width="45dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape"
+                    android:drawableLeft="@drawable/ic_favorite"
+                    android:layout_margin="4dp"
+                    android:paddingLeft="5dp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

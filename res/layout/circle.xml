@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+       <include layout="@layout/title"/>
+       <ScrollView 
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content">
+       <LinearLayout 
+           android:layout_width="fill_parent"
+           android:paddingLeft="10dp"
+           android:paddingRight="10dp"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           >
+       <LinearLayout      	
+	    android:id="@+id/item_news"	
+	    	android:paddingRight="10dp"
+           		    
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="10dp"
+           android:gravity="center_vertical"
+           android:clickable="true"
+           android:background="@drawable/preference_single_item" >
+
+     		<ImageView
+     		    android:paddingLeft="10dp"
+     		    android:id="@+id/add_friend"
+     		    android:layout_width="wrap_content"
+     		    android:layout_height="wrap_content"
+     		    android:scaleType="matrix"
+     		    android:src="@drawable/ico_circle" />
+    
+	         <TextView
+	       		android:layout_width="wrap_content" 
+	       		android:layout_height="wrap_content"
+	       		android:padding="10dp" 
+	       		android:text="@string/CIRCLE_NEW"
+	       		android:textSize="18sp"		
+				android:textColor="#000" /> 
+			<TextView 
+			    android:layout_width="0dp"
+			    android:gravity="right" 
+	       		android:layout_height="wrap_content"
+	       		android:layout_weight="1"
+			    android:text="@string/CIRCLE_NEW_TIP"
+			    android:textColor="@color/hintColor" 
+			    android:drawableRight="@drawable/mm_submenu"
+			    /> 					
+  	  </LinearLayout>
+  	  <LinearLayout      	
+	    android:id="@+id/item_scan"			    
+           android:paddingRight="10dp"
+           
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           
+           android:layout_marginTop="10dp"
+           android:gravity="center_vertical"
+           android:clickable="true"
+           android:background="@drawable/preference_first_item" >
+
+     		<ImageView
+     		    android:paddingLeft="10dp"
+     		    android:layout_width="wrap_content"
+     		    android:layout_height="wrap_content"
+     		    android:scaleType="matrix"
+     		    android:src="@drawable/ico_qrcode" />
+    
+	         <TextView
+	       		android:layout_width="wrap_content" 
+	       		android:layout_height="wrap_content"
+	       		android:padding="10dp" 
+	       		android:text="@string/CIRCLE_SCAN"
+	       		android:textSize="18sp"		
+				android:textColor="#000" /> 
+			<TextView 
+			    android:layout_width="0dp"
+			    android:gravity="right" 
+	       		android:layout_height="wrap_content"
+	       		android:layout_weight="1"
+			    android:text="@string/CIRCLE_SCAN_TIP"
+			      android:textColor="@color/hintColor" 
+			    android:drawableRight="@drawable/mm_submenu"
+			    /> 					
+  	  </LinearLayout>
+       <LinearLayout      	
+	    android:id="@+id/item_findById"	
+	   	android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:gravity="center_vertical"
+           android:paddingRight="10dp"
+           android:clickable="true"
+           android:background="@drawable/preference_item" >
+
+     		<ImageView
+     		    android:paddingLeft="10dp"
+     		    android:layout_width="wrap_content"
+     		    android:layout_height="wrap_content"
+     		    android:scaleType="matrix"
+     		    android:src="@drawable/ico_id" />
+    
+	         <TextView
+	       		android:layout_width="wrap_content" 
+	       		android:layout_height="wrap_content"
+	       		android:padding="10dp" 
+	       		android:text="@string/CIRCLE_FIND_BYID"
+	       		android:textSize="18sp"		
+				android:textColor="#000" /> 
+			<TextView 
+			    android:layout_width="0dp"
+			    android:gravity="right" 
+	       		android:layout_height="wrap_content"
+	       		android:layout_weight="1"
+			    android:text="@string/CIRCLE_FIND_BYID_TIP"
+			      android:textColor="@color/hintColor" 
+			    android:drawableRight="@drawable/mm_submenu"
+			    /> 					
+  	  </LinearLayout>
+  	  <LinearLayout      	
+	    android:id="@+id/item_findAdv"		
+	    android:paddingRight="10dp"
+           	    
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:gravity="center_vertical"
+           android:clickable="true"
+           android:background="@drawable/preference_item" >
+
+     		<ImageView
+     		     android:paddingLeft="10dp"
+     		    android:layout_width="wrap_content"
+     		    android:layout_height="wrap_content"
+     		    android:scaleType="matrix"
+     		    android:src="@drawable/ico_f" />
+    
+	         <TextView
+	       		android:layout_width="wrap_content" 
+	       		android:layout_height="wrap_content"
+	       		android:padding="10dp" 
+	       		android:text="@string/CIRCLE_FIND_ADV"
+	       		android:textSize="18sp"		
+				android:textColor="#000" /> 
+			<TextView 
+			    android:layout_width="0dp"
+			    android:gravity="right" 
+	       		android:layout_height="wrap_content"
+	       		android:layout_weight="1"
+			    android:text="@string/CIRCLE_FIND_ADV_TIP"
+			      android:textColor="@color/hintColor" 
+			    android:drawableRight="@drawable/mm_submenu"
+			    /> 					
+  	  </LinearLayout>
+  	  <LinearLayout      	
+  	      
+	    android:id="@+id/item_findNearby"			
+	    android:paddingRight="10dp"
+               
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:gravity="center_vertical"
+           android:clickable="true"
+           android:background="@drawable/preference_item" >
+
+     		<ImageView
+     		    android:paddingLeft="10dp"
+     		    android:layout_width="wrap_content"
+     		    android:layout_height="wrap_content"
+     		    android:scaleType="matrix"
+     		    android:src="@drawable/ico_location" />
+    
+	         <TextView
+	             android:layout_width="wrap_content"
+	             android:layout_height="wrap_content"
+	             android:padding="10dp"
+	             android:text="@string/CIRCLE_FIND_NEARBY"
+	             android:textColor="#000"
+	             android:textSize="18sp" />
+ 
+			<TextView 
+			    android:layout_width="0dp"
+			   
+			    android:gravity="right" 
+	       		android:layout_height="wrap_content"
+	       		android:layout_weight="1"
+			    android:text="@string/CIRCLE_FIND_NEARBY_TIP"
+			      android:textColor="@color/hintColor" 
+			    android:drawableRight="@drawable/mm_submenu"
+			    /> 					
+  	  </LinearLayout>
+     <LinearLayout      	
+	    android:id="@+id/item_findContact"		
+	    android:paddingRight="10dp"
+           	    
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:gravity="center_vertical"
+           android:clickable="true"
+           android:background="@drawable/preference_last_item" >
+
+     		<ImageView
+     		    android:paddingLeft="10dp"
+     		    android:layout_width="wrap_content"
+     		    android:layout_height="wrap_content"
+     		    android:scaleType="matrix"
+     		    android:src="@drawable/ico_telbook" />
+    
+	         <TextView
+	       		android:layout_width="wrap_content" 
+	       		android:layout_height="wrap_content"
+	       		android:padding="10dp" 
+	       		android:text="@string/CIRCLE_FIND_CONTACT"
+	       		android:textSize="18sp"		
+				android:textColor="#000" /> 
+			<TextView 
+			    android:layout_width="0dp"
+			    android:gravity="right" 
+	       		android:layout_height="wrap_content"
+	       		android:layout_weight="1"
+			    android:text=""
+			     android:textColor="@color/hintColor" 
+			    android:drawableRight="@drawable/mm_submenu"
+			    /> 					
+  	  </LinearLayout>
+  	  
+  	  <LinearLayout      	
+	    android:id="@+id/item_findCpMember"		
+	    android:paddingRight="10dp"
+           	    
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="10dp"
+           android:gravity="center_vertical"
+           android:clickable="true"
+           android:background="@drawable/preference_first_item" >
+
+     		<ImageView
+     		     android:paddingLeft="10dp"
+     		    android:layout_width="wrap_content"
+     		    android:layout_height="wrap_content"
+     		    android:scaleType="matrix"
+     		    android:src="@drawable/ico_u" />
+    
+	         <TextView
+	       		android:layout_width="wrap_content" 
+	       		android:layout_height="wrap_content"
+	       		android:padding="10dp" 
+	       		android:text="@string/CIRCLE_FIND_CP_MEMBER"
+	       		android:textSize="18sp"		
+				android:textColor="#000" /> 
+			<TextView 
+			    android:layout_width="0dp"
+			    android:gravity="right" 
+	       		android:layout_height="wrap_content"
+	       		android:layout_weight="1"
+			    android:text=""
+			     android:textColor="@color/hintColor" 
+			    android:drawableRight="@drawable/mm_submenu"
+			    /> 					
+  	  </LinearLayout>
+  	  <LinearLayout      	
+	    android:id="@+id/item_findCpNearby"		
+	    android:paddingRight="10dp"
+           	    
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:gravity="center_vertical"
+           android:clickable="true"
+           android:background="@drawable/preference_last_item" >
+
+     		<ImageView
+     		     android:paddingLeft="10dp"
+     		    android:layout_width="wrap_content"
+     		    android:layout_height="wrap_content"
+     		    android:scaleType="matrix"
+     		    android:src="@drawable/ico_gps" />
+    
+	         <TextView
+	       		android:layout_width="wrap_content" 
+	       		android:layout_height="wrap_content"
+	       		android:padding="10dp" 
+	       		android:text="@string/CIRCLE_FIND_CP_NEARBY"
+	       		android:textSize="18sp"		
+				android:textColor="#000" /> 
+			<TextView 
+			    android:layout_width="0dp"
+			    android:gravity="right" 
+	       		android:layout_height="wrap_content"
+	       		android:layout_weight="1"
+			    android:text=""
+			     android:textColor="@color/hintColor" 
+			    android:drawableRight="@drawable/mm_submenu"
+			    /> 					
+  	  </LinearLayout>
+  	  
+  	  <LinearLayout      	
+	    android:id="@+id/item_share"			
+	    android:paddingRight="10dp"
+               
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="10dp"
+           android:gravity="center_vertical"
+           android:clickable="true"
+           android:background="@drawable/preference_single_item" >
+
+     		<ImageView
+     		    android:paddingLeft="10dp"
+     		    android:layout_width="wrap_content"
+     		    android:layout_height="wrap_content"
+     		    android:scaleType="matrix"
+     		    android:src="@drawable/ico_share" />
+    
+	         <TextView
+	       		android:layout_width="wrap_content" 
+	       		android:layout_height="wrap_content"
+	       		android:padding="10dp" 
+	       		android:text="@string/CIRCLE_SHARE"
+	       		android:textSize="18sp"		
+				android:textColor="#000" /> 
+			<TextView 
+			    android:layout_width="0dp"
+			    android:gravity="right" 
+	       		android:layout_height="wrap_content"
+	       		android:layout_weight="1"
+			    android:textColor="@color/hintColor" 
+			    android:drawableRight="@drawable/mm_submenu"
+			    /> 					
+  	  </LinearLayout>
+  	  </LinearLayout>   
+      </ScrollView>
+</LinearLayout>

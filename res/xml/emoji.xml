@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Root
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  <emoji img="@drawable/smiley_0" code ="/微笑" />
+  <emoji img="@drawable/smiley_1" code ="/撇嘴" />
+  <emoji img="@drawable/smiley_2" code ="/色" />
+  <emoji img="@drawable/smiley_3" code ="/发呆" />
+  <emoji img="@drawable/smiley_4" code ="/得意" />
+  <emoji img="@drawable/smiley_5" code ="/流泪" />
+  <emoji img="@drawable/smiley_7" code ="/闭嘴" />
+  <emoji img="@drawable/smiley_8" code ="/睡" />
+  <emoji img="@drawable/smiley_9" code ="/大哭" />
+  <emoji img="@drawable/smiley_10" code ="/尴尬" />
+  <emoji img="@drawable/smiley_11" code ="/发怒" />
+  <emoji img="@drawable/smiley_12" code ="/调皮" />
+  <emoji img="@drawable/smiley_13" code ="/呲牙" />
+  <emoji img="@drawable/smiley_14" code ="/惊讶" />
+  <emoji img="@drawable/smiley_15" code ="/难过" />
+  <emoji img="@drawable/smiley_17" code ="/冷汗" />
+  <emoji img="@drawable/smiley_18" code ="/抓狂" />
+  <emoji img="@drawable/smiley_19" code ="/吐" />
+  <emoji img="@drawable/smiley_20" code ="/偷笑" />
+  <emoji img="@drawable/smiley_21" code ="/可爱" />
+  <emoji img="@drawable/smiley_22" code ="/白眼" />
+  <emoji img="@drawable/smiley_23" code ="/傲慢" />
+  <emoji img="@drawable/smiley_24" code ="/饥饿" />
+  <emoji img="@drawable/smiley_25" code ="/困" />
+  <emoji img="@drawable/smiley_26" code ="/惊恐" />
+  <emoji img="@drawable/smiley_27" code ="/流汗" />
+  <emoji img="@drawable/smiley_28" code ="/憨笑" />
+  <emoji img="@drawable/smiley_29" code ="/大兵" />
+  <emoji img="@drawable/smiley_30" code ="/奋斗" />
+  <emoji img="@drawable/smiley_31" code ="/咒骂" />
+  <emoji img="@drawable/smiley_32" code ="/疑问" />
+  <emoji img="@drawable/smiley_33" code ="/嘘..." />
+  <emoji img="@drawable/smiley_34" code ="/晕" />
+  <emoji img="@drawable/smiley_35" code ="/折磨" />
+  <emoji img="@drawable/smiley_36" code ="/衰" />
+  <emoji img="@drawable/smiley_37" code ="/骷髅" />
+  <emoji img="@drawable/smiley_38" code ="/敲打" />
+  <emoji img="@drawable/smiley_39" code ="/再见" />
+  <emoji img="@drawable/smiley_40" code ="/擦汗" />
+  <emoji img="@drawable/smiley_41" code ="/抠鼻" />
+  <emoji img="@drawable/smiley_42" code ="/鼓掌" />
+  <emoji img="@drawable/smiley_43" code ="/糗大了" />
+  <emoji img="@drawable/smiley_44" code ="/坏笑" />
+  <emoji img="@drawable/smiley_45" code ="/左哼哼" />
+  <emoji img="@drawable/smiley_46" code ="/右哼哼" />
+  <emoji img="@drawable/smiley_47" code ="/哈欠" />
+  <emoji img="@drawable/smiley_48" code ="/鄙视" />
+  <emoji img="@drawable/smiley_49" code ="/委屈" />
+  <emoji img="@drawable/smiley_50" code ="/快哭了" />
+  <emoji img="@drawable/smiley_51" code ="/阴险" />
+  <emoji img="@drawable/smiley_52" code ="/亲亲" />
+  <emoji img="@drawable/smiley_53" code ="/吓" />
+</Root>
+

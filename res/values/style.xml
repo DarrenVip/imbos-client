@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+     <style name="MTitle">
+        <item name="android:textSize">19.0dip</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="TextView" parent="@android:style/Widget.TextView">
+		<item name="android:background">@android:color/transparent</item>
+		<item name="android:textColor">@android:color/black</item>
+	</style>
+	<style name="TextView.Left">
+		<item name="android:gravity">center_vertical</item>
+	</style>
+	<style name="TextView.Label">
+		<item name="android:gravity">center_vertical|left</item>
+		<item name="android:textStyle">bold</item>
+        <item name="android:textSize">16sp</item>
+	</style>
+	<style name="TextView.Key">
+		<item name="android:gravity">center_vertical|left</item>
+		<item name="android:textSize">18sp</item>
+	</style>
+	<style name="TextView.Value" parent="@android:style/Widget.TextView">
+		<item name="android:textColor">#cccccc</item>
+	</style>
+	<style name="CheckBox" parent="@android:style/Widget.CompoundButton.CheckBox">
+		<item name="android:textColor">@android:color/black</item>
+	</style>
+	
+	<style name="EditText" parent="@android:style/Widget.EditText">
+	    <item name="android:paddingLeft">10.0dp</item>
+	    <item name="android:paddingRight">10.0dp</item>
+	    <item name="android:paddingTop">10.0dp</item>
+	    <item name="android:paddingBottom">10.0dp</item>
+		<item name="android:background">@drawable/chat_input</item>
+	</style>
+	
+	<style name="EditText.Smail">
+	    <item name="android:paddingTop">10.0dp</item>
+	    <item name="android:paddingBottom">10.0dp</item>
+	    <item name="android:textAppearance">@android:style/TextAppearance.Small.Inverse</item>
+	</style>
+	
+	<style name="Buttom" parent="@android:style/Widget.Button">
+		<item name="android:background">@drawable/btn_style_default</item>
+		<item name="android:textColor">@android:color/black</item>
+	</style>
+	
+     <style name="ListView" parent="@android:style/Widget.ListView">
+       <item name="android:fadingEdge">none</item>
+	   <item name="android:listSelector">@drawable/selector_list_item</item>
+	   <item name="android:animationCache">false</item>
+	   <item name="android:layoutAnimation">@anim/layout_list</item>
+  	   <item name="android:cacheColorHint">@android:color/transparent</item>
+       <item name="android:divider">#cccccc</item>
+       <item name="android:dividerHeight">1px</item>
+	</style>
+     <style name="AnimTop2" parent="@android:style/Animation">  
+    	<item name="android:windowEnterAnimation">@anim/push_top_in2</item>
+        <item name="android:windowExitAnimation">@anim/push_top_out2</item>
+	</style>
+     <style name="MMListCatalog">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff595c61</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">#ffced2d7</item>
+        <item name="android:paddingLeft">10.0dip</item>
+        <item name="android:paddingTop">2.0dip</item>
+        <item name="android:paddingBottom">2.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="MyDialogStyleTop" parent="android:Theme.Dialog" >
+        <item name="android:windowAnimationStyle">@style/AnimTop2</item>
+        <item name="android:windowFrame">@null</item><!--边框-->
+        <item name="android:windowIsFloating">true</item><!--是否浮现在activity之上-->
+        <item name="android:windowIsTranslucent">true</item><!--半透明-->
+        <item name="android:windowNoTitle">true</item><!--无标题-->
+        <item name="android:windowBackground">@android:color/transparent</item><!--背景透明-->
+        <item name="android:backgroundDimEnabled">false</item><!--模糊-->        
+     </style>
+    
+    <style name="MyButtonGreen">
+         <item name="android:layout_width">300dp</item>
+         <item name="android:layout_height">wrap_content</item>
+         <item name="android:background">@drawable/btn_style_green</item>
+         <item name="android:textColor">#fff</item>
+         <item name="android:textSize">18sp</item>
+    </style>
+    
+    <style name="page_title" parent="@android:style/Widget.TextView">
+		<item name="android:layout_width">0dp</item>
+		<item name="android:layout_weight">1</item>
+     	<item name="android:layout_height">fill_parent</item>
+     	<item name="android:gravity">center</item>
+     	<item name="android:padding">5.0dp</item>
+     	<item name="android:textSize">16sp</item>
+	</style>
+	
+    <style name="common_text_style" parent="@android:style/Widget.TextView">
+		<item name="android:layout_width">fill_parent</item>
+     	<item name="android:layout_height">wrap_content</item>
+     	<item name="android:gravity">left</item>
+     	<item name="android:padding">2.0dp</item>
+     	<item name="android:textSize">16sp</item>
+     	<item name="android:textColor">#000</item>
+	</style>
+    
+	<color name="flagColor1">#E3E3E3</color>
+	<color name="flagColor2">#00A4F2</color> 
+	<color name="flagColor3">#F74461</color>
+	<color name="flagColor4">#05FC0C</color>
+	<color name="menuColor">#459FC9</color>
+	<color name="flagYellow">#FFFF00</color>
+	
+	<color name="selectorColor">#E7E7E7</color>  
+	 
+	<color name="activity_backgrond">@android:color/white</color>
+	<color name="textColor">@android:color/black</color>
+	<color name="hintColor">#cccccc</color>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<declare-styleable name="TableView">
+		<attr name="id" format="integer" />
+		<attr name="title" format="string" />
+		<attr name="rows" format="integer"/>
+		<attr name="columns" format="integer"/>
+		<attr name="titleColor" format="color" />
+		<attr name="lineColor" format="color"/>
+		<attr name="headColor" format="color"/>
+		<attr name="contentFont" format="dimension"/>
+		<attr name="titleFont" format="dimension"/>
+		<attr name="headBackgroundColor" format="color"/>
+		<attr name="selectorColor" format="color"/>
+		<attr name="contentColor" format="color" />
+		<attr name="mbackground" format="color" />
+		<attr name="disabled" format="color" />
+		<attr name="tableView_TextSize" format="dimension" />
+		<attr name="imei_ediText_Height" format="dimension" />
+		<attr name="zibraColor" format="color" />
+	</declare-styleable>
+	
+	<declare-styleable name="LinerView">
+		<attr name="LinerView_id" format="integer" />
+		<attr name="LinerView_title" format="string" />
+		<attr name="LinerView_font" format="dimension"/>
+		<attr name="LinerView_fontColor" format="color"/>
+		<attr name="LinerView_rows" format="integer" />
+		<attr name="LinerView_background" format="color"/>
+		<attr name="LinerView_rowline" format="color"/> 
+		<attr name="LinerView_titleColor" format="color" />
+	</declare-styleable>
+	
+	
+
+	<declare-styleable name="InputTableView">
+		<attr name="tableView_Height" format="integer" />
+		
+	</declare-styleable>
+	
+	<declare-styleable name="PullToRefresh">
+        <attr name="adapterViewBackground" format="reference|color" />
+        <attr name="headerBackground" format="reference|color" />
+        <attr name="headerTextColor" format="color" />
+        <attr name="mode">
+            <flag name="pullDownFromTop" value="0x1" />
+            <flag name="pullUpFromBottom" value="0x2" />
+            <flag name="both" value="0x3" />
+        </attr>
+    </declare-styleable>
+</resources>
